@@ -15,7 +15,7 @@ CREATE TABLE `contas` (
   `whatsapp` varchar(255) NOT NULL,
   `file_name` varchar(255) NOT NULL,
   `token` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 INSERT INTO `contas` (`id`, `nome`, `email`, `senha`, `resenha`, `cpf`, `whatsapp`, `file_name`, `token`) VALUES
